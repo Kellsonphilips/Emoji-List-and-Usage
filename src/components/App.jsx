@@ -21,7 +21,7 @@ function App() {
       <Header />
       <div>
         <h1>
-          <span>Emoji Dictionary</span>
+          <span>Emoji Meanings & Usage</span>
         </h1>
         <dl className="dictionary">{emojipedia.map(createdCard)}</dl>
       </div>
